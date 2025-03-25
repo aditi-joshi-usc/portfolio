@@ -77,9 +77,9 @@ I’m Aditi Joshi, a data science professional with practical experience in data
 
 ### University of Southern California
 - **Degree**: Master’s in Applied Data Science  
-- **GPA**: 3.65  
+- **GPA**: 3.66  
 - **Relevant Courses**: Data Mining, AI Foundations, Machine Learning, Data Management, Data Science at Scale.
-  
+
 ### Cummins College of Engineering for Women
 - **Degree**: Bachelor’s in Computer Engineering  
 - **GPA**: 3.78  
@@ -89,10 +89,11 @@ I’m Aditi Joshi, a data science professional with practical experience in data
 
 ## Skills
 - **Programming Languages**: Python, Java, JavaScript, Kotlin, HTML/CSS, AngularJS, Django.
-- **Data and Databases**: SQL, MySQL, Oracle, MongoDB, Firebase.
-- **Cloud and Tools**: AWS (Bedrock, Athena, Glue, S3), Git, Apache Spark, Tableau.
+- **Data and Databases**: SQL, MySQL, PostgreSQL, Oracle, MongoDB, Firebase.
+- **Cloud and Tools**: AWS (Bedrock, Athena, Glue, Lambda, S3, EC2), Git, Apache Spark, Tableau.
 - **Frameworks and Libraries**: Flask, NumPy, Pandas.
-- **Methodologies**: Agile, CI/CD, Machine Learning, Differential Privacy.
+- **Workflow Tools**: Docker, CI/CD, JIRA, Bitbucket, Airflow.
+- **Methodologies**: Agile, Machine Learning, Prompt Engineering, Differential Privacy.
 - **Soft Skills**: Communication, stakeholder collaboration, problem-solving, leadership.
 
 ---
@@ -106,6 +107,8 @@ When I’m not working or studying, I enjoy immersing myself in fiction novels, 
 
 - **Email**: [aditi.jo2000@gmail.com](mailto:aditi.jo2000@gmail.com)
 - **LinkedIn**: [linkedin.com/in/aditi-anant-joshi](https://linkedin.com/in/aditi-anant-joshi)
+- **GitHub**: [github.com/aditi-joshi-usc](https://github.com/aditi-joshi-usc)
 - **Location**: Los Angeles, CA, USA
 
 Feel free to explore my projects and reach out if you'd like to discuss any potential collaborations!
+
