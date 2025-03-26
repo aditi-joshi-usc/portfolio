@@ -1,0 +1,50 @@
+.nav-bar {
+  background-color: #6CA0DC;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  border-radius: 8px;
+  margin: 1rem auto 2rem auto;
+  max-width: 800px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #FEEBCB;
+}
+
+/* Optional: Make text stand out more on the Cayman background */
+.page-header {
+  background-color: #4B89DC;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.main-content {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
