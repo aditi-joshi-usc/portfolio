@@ -4,15 +4,25 @@ description: "Portfolio of Aditi Joshi – Data Scientist and Engineer"
 url: "https://aditi-joshi-usc.github.io"
 baseurl: "/portfolio"
 repository: "aditi-joshi-usc/portfolio"
+favicon: /assets/img/favicon.ico
 
-# Theme setup
+# Theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# SEO and Metadata
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Author info
 author:
   name: "Aditi Joshi"
   avatar: /assets/img/aditi-joshi-profile-picture.jpg
-  bio: "Data Engineer & Scientist | AI | Cloud | Healthcare & FinTech"
+  bio: "Data Engineer | ML & Cloud Enthusiast | USC Applied Data Science Grad"
   location: "Los Angeles, CA"
   links:
     - label: "Email"
@@ -25,50 +35,28 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/aditi-joshi-usc"
 
-# Appearance
-minimal_mistakes_skin: "air" # other nice options: "contrast", "sunrise", "aqua"
-locale: "en-US"
-
-# Plugins
-plugins:
-  - jekyll-include-cache
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-archives
-
-# Analytics (optional)
-# google_analytics: "UA-XXXXXXXXX-X"
-
 # Navigation
-header_pages:
-  - index.md
-  - projects.md
-  - resume.md
-  - contact.md
-
-# Defaults
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-      author_profile: true
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: single
+      layout: "single"
       author_profile: true
-      sidebar:
-        nav: "docs"
+      toc: true
+      toc_sticky: true
 
-# Accent color override (optional)
-sass:
-  style: compressed
-  custom: |
-    $primary-color: #6CA0DC;
-    $text-color: #333;
-    $link-color: #1F4B99;
-    $background-color: #F4F9FF;
+# Appearance
+minimal_mistakes_skin: "air"  # light, mint, air, dark, etc.
+accent_color: "#6CA0DC"
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      url: "https://github.com/aditi-joshi-usc"
+    - label: "LinkedIn"
+      url: "https://linkedin.com/in/aditi-anant-joshi"
+
+# Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
