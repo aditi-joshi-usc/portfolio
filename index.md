@@ -5,9 +5,7 @@ permalink: /
 ---
 
 <div class="hero-container">
-  <img src="{{ '/assets/img/aditi-joshi-profile-picture.jpg' | relative_url }}" alt="Aditi Joshi Profile Picture" class="hero-img">
-
-  <div class="hero-text">
+    <div class="hero-text">
     <h1>Aditi Joshi</h1>
     <h2>Data Scientist and Engineer</h2>
     <p>
