@@ -1,4 +1,3 @@
-# Aditi Joshi - Data Scientist and Engineer Portfolio
 
 Welcome to my portfolio website! This site showcases my skills, experience, academic background, and projects as I pursue a career in data science and engineering.
 
