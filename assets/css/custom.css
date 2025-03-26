@@ -104,4 +104,58 @@
 .hero-text a:hover {
   text-decoration: underline;
 }
+.timeline {
+  border-left: 3px solid #6CA0DC;
+  padding-left: 2rem;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1.1rem;
+  bottom: 0;
+  width: 3px;
+  background: #6CA0DC;
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.timeline-date {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #6CA0DC;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.timeline-item h3 {
+  margin: 0.3rem 0 0.5rem 0;
+  color: #1F4B99;
+  font-size: 1.2rem;
+}
+
+.timeline-item ul {
+  margin-top: 0.3rem;
+  padding-left: 1.2rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  left: -1.45rem;
+  width: 10px;
+  height: 10px;
+  background-color: #6CA0DC;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #fff;
+}
 
