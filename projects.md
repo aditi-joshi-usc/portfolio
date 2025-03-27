@@ -68,25 +68,27 @@ Explore some of the impactful academic, professional, and research projects I've
       Designed and implemented two lightweight database engines using Python — a <strong>Relational Database System</strong> for structured CSV data and a <strong>NoSQL Document Store</strong> for semi-structured JSON data. Both systems use custom-built query languages and simulate modern DBMS functionality using file system operations without external libraries or engines.
     </p>
 
+    <img src="{{ '/assets/img/custom-db-er-diagram.png' | relative_url }}" alt="ER Diagram of Relational and NoSQL DB" style="max-width: 100%; height: auto; margin: 1.5rem 0; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); display: block;">
+
     <h4>📌 Relational DB Engine</h4>
     <ul>
-      <li>📁 Built a structured file-based architecture using folders to represent databases and CSVs for tables (e.g., companies, industries, employee counts).</li>
-      <li>⚙️ Implemented support for schema enforcement, table joins, and indexing using Python dictionaries.</li>
-      <li>💬 Developed a custom SQL-like query parser to handle operations like GET, PUT, UPD, RMV.</li>
-      <li>🔗 Supported many-to-many and one-to-one relationships among entities (companies ↔ industries, employee counts).</li>
+      <li>📁 File-based structure: folders represent databases, CSV files represent tables.</li>
+      <li>🧩 Implemented schema enforcement, joins, indexing using Python dictionaries.</li>
+      <li>💬 Custom query language: GET, PUT, UPD, RMV operations parsed via Python.</li>
+      <li>🔗 Supported many-to-many and one-to-one relationships (e.g., company ↔ industry).</li>
     </ul>
 
     <h4>📌 NoSQL Document Store</h4>
     <ul>
-      <li>📂 Created a document-oriented engine where JSON files represent documents and collections are folders.</li>
-      <li>📜 Supported schema-less flexible documents with varying structure across collections like <em>laureates</em> and <em>awards</em>.</li>
-      <li>🔍 Implemented filtering, projection, and indexing on document fields via custom-built search engine.</li>
-      <li>🧠 Used real-world datasets (e.g., Nobel Prize) to simulate NoSQL queries and aggregations.</li>
+      <li>📂 Document-based engine: JSON files represent documents in collection folders.</li>
+      <li>🌐 Schema-free support for varying document structures (laureates, awards).</li>
+      <li>🔍 Built filtering and indexing features with custom index files per field.</li>
+      <li>📊 Used real-world Nobel Prize dataset to simulate NoSQL use cases.</li>
     </ul>
 
-    <p><strong>🧰 Tech Stack:</strong> Python, CSV, JSON, File I/O, Custom Query Parser</p>
-    <p><strong>🏷️ Keywords:</strong> NoSQL, RDBMS, Custom DBMS, Python, Query Language, Data Modeling, Indexing</p>
-    <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/NOSQL-File-System-DB" target="_blank">View NoSQL DB Repo</a></p>
+    <p><strong>🧰 Tech Stack:</strong> Python, CSV, JSON, File I/O, Query Parser</p>
+    <p><strong>🏷️ Keywords:</strong> NoSQL, RDBMS, Custom DBMS, Query Language, Data Modeling</p>
+    <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/NOSQL-File-System-DB" target="_blank">View on GitHub</a></p>
   </details>
 </div>
 
