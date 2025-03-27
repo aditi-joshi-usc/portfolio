@@ -183,3 +183,32 @@
   margin-bottom: 0.4rem;
   font-size: 0.95rem;
 }
+.project-card {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.2rem;
+  background-color: #f9fbff;
+  border-left: 4px solid #6CA0DC;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.project-card summary {
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #1F4B99;
+  margin-bottom: 0.5rem;
+}
+
+.project-card ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.project-card a {
+  color: #4B89DC;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
