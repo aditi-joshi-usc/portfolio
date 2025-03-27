@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 # Experience
-
+<div class="timeline">
 <div class="timeline-item">
   <span class="timeline-date">Aug 2024 – Present</span>
   <h3>Graduate Course Assistant · University of Southern California</h3>
