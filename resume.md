@@ -20,21 +20,27 @@ permalink: /resume/
 </div>
 
 
-  <div class="timeline-item">
+ <div class="timeline-item">
   <span class="timeline-date">Jun – Aug 2024</span>
   <h3>Data Engineering Intern · Sanofi, Digital R&D</h3>
+
   <ul>
-    <li>✦ Designed and implemented a Generative AI–based Q&A application for querying structured data from Snowflake using natural language.</li>
-    <li>✦ Created a knowledge base pipeline that extracts metadata, converts it to embeddings using <strong>Amazon Bedrock Titan</strong>, and stores it in <strong>Amazon OpenSearch Serverless</strong>.</li>
-    <li>✦ Built secure <strong>ETL pipelines</strong> with AWS Glue, Athena, and S3 to preprocess Snowflake tables containing clinical and trial data.</li>
-    <li>✦ Engineered prompt templates and integrated Bedrock’s Claude for safe SQL generation, with output routed through Bedrock Guardrails.</li>
-    <li>✦ Developed query context filtering and role-based access guardrails, ensuring appropriate data governance and compliance.</li>
-    <li>✦ Delivered a Streamlit-based front end with seamless chat UI for users to ask natural language questions and retrieve answers + SQL queries.</li>
+    <li>✦ Designed and deployed a Generative AI–based Q&A application to allow non-technical users to query Snowflake data using natural language.</li>
+    <li>✦ Built a knowledge base pipeline: metadata → Titan embeddings → Amazon OpenSearch Serverless (vector DB) → real-time retrieval.</li>
+    <li>✦ Engineered prompt templates and integrated Bedrock Claude + Guardrails for secure and explainable query generation.</li>
+    <li>✦ Developed scalable ETL pipelines with AWS Glue, Athena, and S3 to structure clinical and trial metadata from Snowflake.</li>
+    <li>✦ Created a secure Streamlit frontend with chat UI, role-based access controls, and contextual filtering.</li>
   </ul>
-  <p><strong>💡 Impact:</strong> Enabled business users and researchers to access insights from complex datasets without writing SQL.</p>
+
+  <p><strong>💡 Impact:</strong> Enabled medical researchers and data analysts to extract insights from complex datasets without writing SQL.</p>
+
+  <img src="{{ '/assets/img/sanofi-genai-architecture.png' | relative_url }}" alt="Sanofi GenAI App Architecture"
+       style="width: 100%; max-width: 700px; height: auto; margin: 1.5rem auto; border-radius: 10px; display: block; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
+
   <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/Gen-AI-Q-A-App" target="_blank">Gen-AI-Q-A-App</a></p>
   <p><strong>🎥 Demo Videos:</strong> <a href="https://drive.google.com/drive/folders/1APT9wE1OQ4nJhO4LXmMTW1mhzOEJkCax?usp=sharing" target="_blank">Watch on Google Drive</a></p>
 </div>
+
 
   <div class="timeline-item">
     <span class="timeline-date">Jul 2022 – Jul 2023</span>
