@@ -10,26 +10,30 @@ Explore some of the impactful academic, professional, and research projects I've
 
 <div class="project-card">
   <details>
-    <summary><strong> Hybrid Recommender System for Yelp Reviews</strong></summary>
-    <img src="{{ '/assets/img/solution_flow_diagram.png' | relative_url }}" alt="Hybrid Recommender System Diagram" style="max-width:100%; margin: 1rem 0; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <summary><strong>📊 Hybrid Recommender System for Yelp Reviews</strong></summary>
 
-    <p>Developed a scalable hybrid recommendation engine using <strong>PySpark</strong> and <strong>XGBoost</strong> to predict user ratings on Yelp businesses. Combined item-based collaborative filtering with a model-based approach leveraging user, business, review, tip, and photo metadata.</p>
-    
+    <img src="{{ '/assets/img/solution_flow_diagram.png' | relative_url }}" alt="Hybrid Recommender System Diagram"
+      style="max-width: 80%; height: auto; margin: 1rem auto; display: block; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+
+    <p>
+      Developed a scalable hybrid recommendation engine using <strong>PySpark</strong> and <strong>XGBoost</strong> to predict user ratings on Yelp businesses.
+      Combined item-based collaborative filtering with a model-based approach leveraging user, business, review, tip, and photo metadata.
+    </p>
+
     <ul>
-      <li>Engineered a Spark pipeline to preprocess and integrate multi-source data: CSV, JSON reviews, tips, photos, and user profiles.</li>
+      <li>Engineered a Spark pipeline to preprocess and integrate multi-source data (CSV, JSON: reviews, tips, photos, profiles).</li>
       <li>Implemented item-item collaborative filtering with cosine similarity and bias correction.</li>
-      <li>Trained an XGBoost regression model on engineered features from sentiment, user activity, tips, and photos.</li>
-      <li>Blended predictions (95% model-based, 5% CF) to improve accuracy and reduce RMSE.</li>
+      <li>Trained an XGBoost model using features from review sentiment, user activity, tip engagement, and photo content.</li>
+      <li>Blended predictions (95% model-based, 5% CF) to reduce RMSE and boost accuracy.</li>
     </ul>
 
-    <p><strong>📈 Results:</strong> Achieved strong RMSE performance, validated using error distribution analysis.</p>
-    <p><strong>🧰 Tech Stack:</strong> PySpark, Python, XGBoost, NumPy, JSON, CSV</p>
-    <p><strong>🔖 Keywords:</strong> Recommender Systems, Hybrid Model, Collaborative Filtering, Machine Learning, Spark</p>
-    <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/yelp-recommender-system" target="_blank">github.com/aditi-joshi-usc/yelp-recommender-system</a></p>
+    <p><span style="font-weight:600;">📈 Results:</span> Achieved strong RMSE performance, validated via error distribution analysis.</p>
+    <p><span style="font-weight:600;">🧰 Tech Stack:</span> PySpark, Python, XGBoost, NumPy, JSON, CSV</p>
+    <p><span style="font-weight:600;">🏷️ Keywords:</span> Recommender Systems, Hybrid Model, Collaborative Filtering, Machine Learning, Spark</p>
+    <p><span style="font-weight:600;">🔗 GitHub:</span> <a href="https://github.com/aditi-joshi-usc/Hybrid-Recommendation-System-Using-Spark-RDD-XGBoost" target="_blank">github.com/aditi-joshi-usc/yelp-recommender-system</a></p>
   </details>
 </div>
 
-<!-- Example placeholder cards for future expansion -->
 
 <div class="project-card">
   <details>
