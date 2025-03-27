@@ -4,6 +4,8 @@ title: Home
 permalink: /
 ---
 
+
+
 <div class="hero-container">
   <img src="{{ '/assets/img/aditi-joshi-profile-picture.jpg' | relative_url }}" alt="Aditi Joshi" class="hero-img" />
   
@@ -19,3 +21,8 @@ permalink: /
     </p>
   </div>
 </div>
+<p style="margin-top: 0.5rem; margin-bottom: 2rem;">
+  <a href="{{ '/assets/resume/Resume-Aditi-Joshi.pdf' | relative_url }}" class="resume-download-btn" target="_blank">
+    📄 Download My Full Resume (PDF)
+  </a>
+</p>
