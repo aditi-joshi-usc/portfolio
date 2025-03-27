@@ -12,8 +12,10 @@ Explore some of the impactful academic, professional, and research projects I've
   <details open>
     <summary><strong>📊 Hybrid Recommender System for Yelp Reviews</strong></summary>
 
-    <img src="{{ '/assets/img/solution_flow_diagram.png' | relative_url }}" alt="Hybrid Recommender System Diagram"
-  style="width: 80%; max-width: 600px; height: auto; margin: 1rem auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block;">
+    <img src="{{ '/assets/img/solution_flow_diagram.png' | relative_url }}" 
+     alt="Hybrid Recommender System Diagram"
+     style="width: 100%; max-width: 600px; max-height: 400px; object-fit: contain; margin: 1rem auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block;">
+
 
     <p>
       Built a hybrid recommendation engine using <strong>PySpark</strong> and <strong>XGBoost</strong> to predict user ratings on Yelp businesses. Combined collaborative filtering with a model-based approach, leveraging data from user profiles, reviews, tips, and photos.
