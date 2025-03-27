@@ -117,3 +117,25 @@ Explore some of the impactful academic, professional, and research projects I've
     <p><strong>💻 Code Notebook:</strong> <a href="https://github.com/aditi-joshi-usc/boston-crime-predictive-analysis/blob/main/Team12-Project-Final-Code.ipynb" target="_blank">Team12-Project-Final-Code.ipynb</a></p>
   </details>
 </div>
+<div class="project-card">
+  <details>
+    <summary><strong>🧠 Predictive Modeling for Conduct Disorder & Autism Using MRI</strong></summary>
+
+    <p>
+      Ongoing research project at USC focused on early prediction of Conduct Disorder (CD) and Autism Spectrum Condition (ASC) using structural and functional MRI data from the ABCD and ABIDE datasets. The goal is to develop ML-based screening models to aid early diagnosis and intervention.
+    </p>
+
+    <ul>
+      <li>🧹 Preprocessed raw MRI data using fMRIPrep and Nilearn to extract region-level activation signals and connectivity matrices.</li>
+      <li>🧠 Extracted biomarkers like subcortical volumes, cortical thickness, and resting-state connectivity features.</li>
+      <li>📊 Performed dimensionality reduction using PCA and autoencoders to improve signal-to-noise ratio and generalizability.</li>
+      <li>🧪 Compared ML models: SVM, XGBoost, and neural networks for binary classification (CD vs. healthy controls).</li>
+      <li>📁 Validated on ABIDE for autism screening generalizability.</li>
+    </ul>
+
+    <p><strong>🎓 Role:</strong> Research Assistant under Prof. Anita Penkova — leading preprocessing pipeline and algorithm comparison.</p>
+    <p><strong>🧰 Tech Stack:</strong> Python, Nilearn, scikit-learn, fMRIPrep, XGBoost, TensorFlow, Nibabel</p>
+    <p><strong>🏷️ Keywords:</strong> Neuroimaging, Conduct Disorder, Autism, fMRI, Brain Biomarkers, Classification, ML in Healthcare</p>
+
+  </details>
+</div>
