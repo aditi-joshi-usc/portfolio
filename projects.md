@@ -36,19 +36,29 @@ Explore some of the impactful academic, professional, and research projects I've
 
 <div class="project-card">
   <details>
-    <summary><strong>🧠 Differential Privacy on Genomic Data</strong></summary>
-    <p>Created a Django-based portal demonstrating privacy-utility tradeoffs using ML on genomic datasets. Implemented differential privacy techniques and presented results at international competitions.</p>
-    <p><strong>Technologies:</strong> Python, Django, MongoDB, Differential Privacy</p>
+    <summary><strong>🛡️ Privacy-Preserving Smart Health App – IBM DiffPrivLib</strong></summary>
+
+    <p>
+      Developed a smart healthcare monitoring system using <strong>IBM’s open-source Differential Privacy library (Diffprivlib)</strong> to protect patient data during machine learning model training. The app gives personalized health recommendations and predicts re-hospitalization risks using private EHR data.
+    </p>
+
+    <ul>
+      <li>🔐 Integrated <strong>diffprivlib</strong> with ML models to enforce privacy using noise mechanisms and budget accounting.</li>
+      <li>📊 Used statistical tools (mean, histograms) to analyze data without exposing raw values.</li>
+      <li>🏥 Simulated Electronic Health Record (EHR) processing to make predictions while preserving user confidentiality.</li>
+      <li>☁️ Proposed secure cloud architecture for hospital-user interaction.</li>
+    </ul>
+
+    <p><strong>📈 Use Case:</strong> Privacy-preserving personalized health insights + hospitalization risk alerts.</p>
+    <p><strong>🧰 Tech Stack:</strong> Python, IBM DiffPrivLib, Scikit-learn, MongoDB, Flask (proposed)</p>
+    <p><strong>🏷️ Keywords:</strong> Differential Privacy, Smart Healthcare, EHR, Privacy-Preserving ML</p>
+    <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/Differential-Privacy-Portal-IBM" target="_blank">View on GitHub</a></p>
+
+    <p><strong>🎥 Presentation:</strong></p>
+    <iframe src="https://drive.google.com/file/d/1VzWWX0ppZhvN26Pyp-KmkMbMKgBwUDc5/preview" width="100%" height="400" allow="autoplay"></iframe>
   </details>
 </div>
 
-<div class="project-card">
-  <details>
-    <summary><strong>📂 Custom File-Based Relational & NoSQL DB</strong></summary>
-    <p>Designed and built a Python-based database system supporting both relational and NoSQL structures, improving retrieval and storage efficiency by over 30%.</p>
-    <p><strong>Technologies:</strong> Python, File I/O, OOP</p>
-  </details>
-</div>
 
 <div class="project-card">
   <details>
