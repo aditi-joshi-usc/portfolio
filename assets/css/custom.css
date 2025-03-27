@@ -213,7 +213,20 @@
   color: #4B89DC;
   text-decoration: none;
 }
+.resume-download-btn {
+  display: inline-block;
+  background-color: #6CA0DC;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
 
+.resume-download-btn:hover {
+  background-color: #4B89DC;
+}
 .project-card a:hover {
   text-decoration: underline;
 }
