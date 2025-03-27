@@ -6,11 +6,6 @@ permalink: /education/
 
 # Education
 
-<p style="margin-top: 0.5rem; margin-bottom: 2rem;">
-  <a href="{{ '/assets/resume/Resume-Aditi-Joshi.pdf' | relative_url }}" class="resume-download-btn" target="_blank">
-    📄 Download My Full Resume (PDF)
-  </a>
-</p>
 
 <div class="timeline">
 
@@ -20,7 +15,7 @@ permalink: /education/
     <ul>
       <li>✦ Coursework: Machine Learning, Artificial Intelligence, Data Mining, Data Science at Scale, Data Visualization, Database Systems</li>
       <li>✦ TA/RA Roles: Capstone Mentor (CSCI 401), Research on early prediction of Conduct Disorder (MRI + ML)</li>
-      <li>✦ GPA: 3.9/4.0 (optional)</li>
+      <li>✦ GPA: 3.66/4.0</li>
     </ul>
   </div>
 
@@ -31,6 +26,7 @@ permalink: /education/
       <li>✦ Graduated with Distinction | Ranked 1st in Principles of Programming Languages (out of 200 students)</li>
       <li>✦ Sponsored by IBM for research on Differential Privacy in Genomic Data</li>
       <li>✦ Received merit-based scholarship for academic excellence</li>
+      <li>✦ GPA: 9.31/10</li>
     </ul>
   </div>
 
