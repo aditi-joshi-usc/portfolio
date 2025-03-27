@@ -62,6 +62,37 @@ Explore some of the impactful academic, professional, and research projects I've
 
 <div class="project-card">
   <details>
+    <summary><strong>🗃️ Custom File-Based Relational & NoSQL Database Systems</strong></summary>
+
+    <p>
+      Designed and implemented two lightweight database engines using Python — a <strong>Relational Database System</strong> for structured CSV data and a <strong>NoSQL Document Store</strong> for semi-structured JSON data. Both systems use custom-built query languages and simulate modern DBMS functionality using file system operations without external libraries or engines.
+    </p>
+
+    <h4>📌 Relational DB Engine</h4>
+    <ul>
+      <li>📁 Built a structured file-based architecture using folders to represent databases and CSVs for tables (e.g., companies, industries, employee counts).</li>
+      <li>⚙️ Implemented support for schema enforcement, table joins, and indexing using Python dictionaries.</li>
+      <li>💬 Developed a custom SQL-like query parser to handle operations like GET, PUT, UPD, RMV.</li>
+      <li>🔗 Supported many-to-many and one-to-one relationships among entities (companies ↔ industries, employee counts).</li>
+    </ul>
+
+    <h4>📌 NoSQL Document Store</h4>
+    <ul>
+      <li>📂 Created a document-oriented engine where JSON files represent documents and collections are folders.</li>
+      <li>📜 Supported schema-less flexible documents with varying structure across collections like <em>laureates</em> and <em>awards</em>.</li>
+      <li>🔍 Implemented filtering, projection, and indexing on document fields via custom-built search engine.</li>
+      <li>🧠 Used real-world datasets (e.g., Nobel Prize) to simulate NoSQL queries and aggregations.</li>
+    </ul>
+
+    <p><strong>🧰 Tech Stack:</strong> Python, CSV, JSON, File I/O, Custom Query Parser</p>
+    <p><strong>🏷️ Keywords:</strong> NoSQL, RDBMS, Custom DBMS, Python, Query Language, Data Modeling, Indexing</p>
+    <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/File-Based-NoSQL-Database" target="_blank">View NoSQL DB Repo</a></p>
+  </details>
+</div>
+
+
+<div class="project-card">
+  <details>
     <summary><strong>🔍 Boston Crime Rate Prediction</strong></summary>
     <p>Led a team to build a predictive model for Boston crime trends using regression and random forest algorithms, achieving 80% model accuracy.</p>
     <p><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Matplotlib</p>
