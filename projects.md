@@ -95,8 +95,25 @@ Explore some of the impactful academic, professional, and research projects I've
 
 <div class="project-card">
   <details>
-    <summary><strong>🔍 Boston Crime Rate Prediction</strong></summary>
-    <p>Led a team to build a predictive model for Boston crime trends using regression and random forest algorithms, achieving 80% model accuracy.</p>
-    <p><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Matplotlib</p>
+    <summary><strong>🚨 Predictive Analysis of Boston Crime Rates</strong></summary>
+
+    <p>
+      Led a team project for USC's DSCI 550 course focused on analyzing and predicting crime patterns in Boston using 2015–2018 data. Combined geospatial, temporal, and statistical analysis with machine learning to uncover trends and forecast crime occurrences.
+    </p>
+
+    <ul>
+      <li>📊 Identified the top 10 most common crimes and visualized their frequency via bar and pie charts.</li>
+      <li>🗺️ Mapped crime density using heatmaps and scatter plots across districts, streets, and neighborhoods.</li>
+      <li>🕒 Analyzed seasonal and temporal trends — discovered peak crime days (Fridays), months (August), and hours (late night).</li>
+      <li>📈 Trained a linear regression model using incident metadata (district, offense group, timestamp) achieving ~66.6% R² score.</li>
+      <li>🤝 Used insights to support public safety recommendations for community policing and policymaking.</li>
+    </ul>
+
+    <p><strong>📈 Result:</strong> Delivered predictive and visual insights to highlight high-risk areas and times, aiding law enforcement resource allocation.</p>
+    <p><strong>👩‍💼 Role:</strong> Team Leader — built predictive model, led spatial analysis, authored final report.</p>
+    <p><strong>🧰 Tech Stack:</strong> Python, Pandas, Seaborn, Matplotlib, Scikit-learn, Plotly, Folium, Jupyter</p>
+    <p><strong>🏷️ Keywords:</strong> Crime Prediction, Geospatial Analysis, Regression, Time Series, Visualization, Urban Analytics</p>
+    <p><strong>📄 Final Report:</strong> <a href="https://github.com/aditi-joshi-usc/boston-crime-predictive-analysis/blob/main/Team12-550FinalProjectReport.pdf" target="_blank">Team12-550FinalProjectReport.pdf</a></p>
+    <p><strong>💻 Code Notebook:</strong> <a href="https://github.com/aditi-joshi-usc/boston-crime-predictive-analysis/blob/main/Team12-Project-Final-Code.ipynb" target="_blank">Team12-Project-Final-Code.ipynb</a></p>
   </details>
 </div>
