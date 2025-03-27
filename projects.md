@@ -86,7 +86,7 @@ Explore some of the impactful academic, professional, and research projects I've
 
     <p><strong>🧰 Tech Stack:</strong> Python, CSV, JSON, File I/O, Custom Query Parser</p>
     <p><strong>🏷️ Keywords:</strong> NoSQL, RDBMS, Custom DBMS, Python, Query Language, Data Modeling, Indexing</p>
-    <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/File-Based-NoSQL-Database" target="_blank">View NoSQL DB Repo</a></p>
+    <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/NOSQL-File-System-DB" target="_blank">View NoSQL DB Repo</a></p>
   </details>
 </div>
 
