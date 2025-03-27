@@ -178,7 +178,12 @@
   margin-top: 0;
   color: #1F4B99;
 }
-
+.project-card ul {
+  margin: 0.5rem 0 1rem 1.2rem;
+  padding-left: 1rem;
+  list-style: disc;
+  line-height: 1.6;
+}
 .project-card p {
   margin-bottom: 0.4rem;
   font-size: 0.95rem;
