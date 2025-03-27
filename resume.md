@@ -6,17 +6,19 @@ permalink: /resume/
 
 # Experience
 
-<div class="timeline">
+<div class="timeline-item">
+  <span class="timeline-date">Aug 2024 – Present</span>
+  <h3>Graduate Course Assistant · University of Southern California</h3>
+  <p><em>CSCI-401: Design and Construction of Large Software Systems (with Prof. Victor Adamchik)</em></p>
+  <ul>
+    <li>✦ Mentor five student teams (5–6 members each) on end-to-end software capstone projects covering frontend, backend, APIs, and deployment.</li>
+    <li>✦ Facilitate communication between teams and real-world stakeholders, ensuring expectations align and feedback loops remain active.</li>
+    <li>✦ Lead weekly scrum meetings and retrospectives to assess sprint outcomes, surface blockers, and track KPIs.</li>
+    <li>✦ Provide technical guidance on Git/GitHub, Python, SQL, REST APIs, React, Agile workflows, and cloud integration.</li>
+    <li>✦ Evaluate team performance and peer reviews, contributing to grading and mentoring documentation.</li>
+  </ul>
+</div>
 
-  <div class="timeline-item">
-    <span class="timeline-date">Aug 2024 – Present</span>
-    <h3>Graduate Course Assistant, University of Southern California</h3>
-    <ul>
-      <li>Led Scrum for 10 capstone project teams, improving project delivery by 40%.</li>
-      <li>Implemented KPIs and peer reviews, tripling team productivity.</li>
-      <li>Mentored students on Python, SQL, cloud technologies, and Git workflows.</li>
-    </ul>
-  </div>
 
   <div class="timeline-item">
     <span class="timeline-date">Jun – Aug 2024</span>
