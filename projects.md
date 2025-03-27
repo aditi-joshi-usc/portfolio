@@ -30,7 +30,7 @@ Explore some of the impactful academic, professional, and research projects I've
     <p><span style="font-weight:600;">📈 Results:</span> Achieved strong RMSE performance, validated via error distribution analysis.</p>
     <p><span style="font-weight:600;">🧰 Tech Stack:</span> PySpark, Python, XGBoost, NumPy, JSON, CSV</p>
     <p><span style="font-weight:600;">🏷️ Keywords:</span> Recommender Systems, Hybrid Model, Collaborative Filtering, Machine Learning, Spark</p>
-    <p><span style="font-weight:600;">🔗 GitHub:</span> <a href="https://github.com/aditi-joshi-usc/Hybrid-Recommendation-System-Using-Spark-RDD-XGBoost" target="_blank">github.com/aditi-joshi-usc/yelp-recommender-system</a></p>
+    <p><span style="font-weight:600;">🔗 GitHub:</span> <a href="https://github.com/aditi-joshi-usc/Hybrid-Recommendation-System-Using-Spark-RDD-XGBoost" target="_blank">View the project on Github!</a></p>
   </details>
 </div>
 
