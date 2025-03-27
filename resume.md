@@ -11,7 +11,7 @@ permalink: /resume/
   <h3>Graduate Course Assistant · University of Southern California</h3>
   <p><em>CSCI-401: Design and Construction of Large Software Systems (with Prof. Victor Adamchik)</em></p>
   <ul>
-    <li>✦ Mentor five student teams (5–6 members each) on end-to-end software capstone projects covering frontend, backend, APIs, and deployment.</li>
+    <li>✦ Mentor 10 student teams (5–6 members each) on end-to-end software capstone projects covering frontend, backend, APIs, and deployment.</li>
     <li>✦ Facilitate communication between teams and real-world stakeholders, ensuring expectations align and feedback loops remain active.</li>
     <li>✦ Lead weekly scrum meetings and retrospectives to assess sprint outcomes, surface blockers, and track KPIs.</li>
     <li>✦ Provide technical guidance on Git/GitHub, Python, SQL, REST APIs, React, Agile workflows, and cloud integration.</li>
