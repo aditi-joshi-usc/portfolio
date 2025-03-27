@@ -5,6 +5,13 @@ permalink: /resume/
 ---
 
 # Experience
+
+<p style="margin-top: 0.5rem; margin-bottom: 2rem;">
+  <a href="{{ '/assets/resume/Resume-Aditi-Joshi.pdf' | relative_url }}" class="resume-download-btn" target="_blank">
+    📄 Download My Full Resume (PDF)
+  </a>
+</p>
+---
 <div class="timeline">
 <div class="timeline-item">
   <span class="timeline-date">Aug 2024 – Present</span>
@@ -67,6 +74,3 @@ permalink: /resume/
 
 ---
 
-### 📄 Resume PDF
-
-You can also [📥 download my full resume](../assets/resume/Resume-Aditi-Joshi.pdf).
