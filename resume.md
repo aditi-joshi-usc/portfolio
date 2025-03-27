@@ -41,36 +41,27 @@ permalink: /resume/
   <p><strong>🎥 Demo Videos:</strong> <a href="https://drive.google.com/drive/folders/1APT9wE1OQ4nJhO4LXmMTW1mhzOEJkCax?usp=sharing" target="_blank">Watch on Google Drive</a></p>
 </div>
 
+<div class="timeline-item">
+  <span class="timeline-date">Jul 2022 – Jul 2023</span>
+  <h3>Technology Analyst (Software Engineer) · Citigroup</h3>
+  <ul>
+    <li>✦ Modernized legacy financial reporting workflows by migrating them into Java Spring Boot microservices, reducing latency by 30%.</li>
+    <li>✦ Built a full-stack reporting dashboard using Angular and REST APIs, automating 30% of manual analyst tasks.</li>
+    <li>✦ Created real-time data pipeline monitoring tools and alerting dashboards for critical batch jobs.</li>
+    <li>✦ Collaborated with cross-functional teams to ensure SOX compliance and integration with upstream systems.</li>
+  </ul>
+</div>
 
-  <div class="timeline-item">
-    <span class="timeline-date">Jul 2022 – Jul 2023</span>
-    <h3>Software Engineer (Technology Analyst), Citigroup</h3>
-    <ul>
-      <li>Modernized financial reporting pipelines to microservices (Java Spring Boot), reducing latency by 30%.</li>
-      <li>Built full-stack report monitoring app to automate 30% of analyst workload.</li>
-      <li>Created dashboards and monitoring tools to track data pipeline health.</li>
-    </ul>
-  </div>
+<div class="timeline-item">
+  <span class="timeline-date">May – Jul 2021</span>
+  <h3>Software Engineering Intern · Citigroup</h3>
+  <ul>
+    <li>✦ Developed a JavaFX-based reconciliation tool that improved data validation efficiency by 50%.</li>
+    <li>✦ Built a batch-processing pipeline to ensure accuracy of trade and financial records.</li>
+    <li>✦ Presented tool outcomes to 30+ senior executives and product leads, resulting in a return full-time offer.</li>
+  </ul>
+</div>
 
-  <div class="timeline-item">
-    <span class="timeline-date">May – Jul 2021</span>
-    <h3>Software Engineering Intern, Citigroup</h3>
-    <ul>
-      <li>Developed a reconciliation tool using JavaFX + SQL, improving data validation efficiency by 50%.</li>
-      <li>Built a batch-processing pipeline to ensure 100% accuracy for financial records.</li>
-      <li>Presented tool impact to 30+ senior executives, earning full-time offer.</li>
-    </ul>
-  </div>
-
-  <div class="timeline-item">
-    <span class="timeline-date">Sep 2021 – May 2022</span>
-    <h3>Project Intern, IBM Genomics Research (Academic)</h3>
-    <ul>
-      <li>Implemented differential privacy techniques on genomic datasets using Python + Django.</li>
-      <li>Built disease prediction portal demonstrating ML trade-offs between accuracy and privacy.</li>
-      <li>Earned recognition at state/international competitions among 250+ teams.</li>
-    </ul>
-  </div>
 
 </div>
 
