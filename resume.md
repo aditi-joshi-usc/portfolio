@@ -52,10 +52,12 @@ permalink: /resume/
   <span class="timeline-date">Jul 2022 – Jul 2023</span>
   <h3>Technology Analyst (Software Engineer) · Citigroup</h3>
   <ul>
-    <li>✦ Modernized legacy financial reporting workflows by migrating them into Java Spring Boot microservices, reducing latency by 30%.</li>
-    <li>✦ Built a full-stack reporting dashboard using Angular and REST APIs, automating 30% of manual analyst tasks.</li>
-    <li>✦ Created real-time data pipeline monitoring tools and alerting dashboards for critical batch jobs.</li>
-    <li>✦ Collaborated with cross-functional teams to ensure SOX compliance and integration with upstream systems.</li>
+    <li>✦ Worked in the Foreign Exchange and Local Markets (QFXLM) Stability Team on migrating legacy monolithic applications to modern microservices architecture.</li>
+    <li>✦ Re-architected QFXLM app using Java (Spring Boot), Angular, and Oracle DB to improve performance, readability, and maintainability.</li>
+    <li>✦ Led logic refactoring, bug fixing, and participated in daily Agile ceremonies and peer code reviews.</li>
+    <li>✦ Built a full-stack report monitoring tool in Angular + Java + SQL to analyze large data from Oracle DW — tracked threshold breaches, new vs. missing records, and flagged anomalies for financial analysts.</li>
+    <li>✦ Automated a high-effort manual monitoring task, reducing analyst workload and improving efficiency significantly.</li>
+    <li>✦ Created custom Jira dashboards for Spring performance tracking, helping the team stay aligned and deliver on sprint goals.</li>
   </ul>
 </div>
 
@@ -63,9 +65,10 @@ permalink: /resume/
   <span class="timeline-date">May – Jul 2021</span>
   <h3>Software Engineering Intern · Citigroup</h3>
   <ul>
-    <li>✦ Developed a JavaFX-based reconciliation tool that improved data validation efficiency by 50%.</li>
-    <li>✦ Built a batch-processing pipeline to ensure accuracy of trade and financial records.</li>
-    <li>✦ Presented tool outcomes to 30+ senior executives and product leads, resulting in a return full-time offer.</li>
+    <li>✦ Developed a JavaFX-based reconciliation tool to support business logic migration validation efforts during backend refactoring.</li>
+    <li>✦ Integrated 3 APIs, processed batch data, and matched records across sources to flag mismatches and generate detailed reports.</li>
+    <li>✦ Designed it for batch runs, producing summaries of matched/unmatched rows and record discrepancies for every cycle.</li>
+    <li>✦ Presented results to 30+ executives and product leads, leading to a full-time return offer post-graduation.</li>
   </ul>
 </div>
 
