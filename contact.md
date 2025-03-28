@@ -4,12 +4,17 @@ title: "Contact"
 permalink: /contact/
 ---
 
-# Contact
+# 📬 Let's Connect
 
-Feel free to reach out via:
+> “The best way to predict the future is to invent it.” – Alan Kay
 
-- 📧 [Email](mailto:aditi.jo2000@gmail.com)  
-- 💼 [LinkedIn](https://linkedin.com/in/aditi-anant-joshi)  
-- 💻 [GitHub](https://github.com/aditi-joshi-usc)  
+<div class="contact-block">
+  <p>I'm always happy to chat about data science, data engineering, software engineering, AI, hiking trails, or fiction novels!</p>
 
-Located in Los Angeles, CA.
+  <ul class="contact-list">
+    <li>📧 <strong>Email:</strong> <a href="mailto:aditi.jo2000@gmail.com">aditi.jo2000@gmail.com</a></li>
+    <li>💼 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/aditi-anant-joshi" target="_blank">aditi-anant-joshi</a></li>
+    <li>💻 <strong>GitHub:</strong> <a href="https://github.com/aditi-joshi-usc" target="_blank">@aditi-joshi-usc</a></li>
+    <li>📍 <strong>Location:</strong> Los Angeles, CA</li>
+  </ul>
+</div>
