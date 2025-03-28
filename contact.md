@@ -9,7 +9,7 @@ permalink: /contact/
 > “The best way to predict the future is to invent it.” – Alan Kay
 
 <div class="contact-block">
-  <p>I'm always happy to chat about data science, data engineering, software engineering, AI, hiking trails, or fiction novels!</p>
+  <p>I'm always happy to chat about data science, data engineering, software engineering, AI, fiction novels, baking, yoga, or hiking trails!</p>
 
   <ul class="contact-list">
     <li>📧 <strong>Email:</strong> <a href="mailto:aditi.jo2000@gmail.com">aditi.jo2000@gmail.com</a></li>
