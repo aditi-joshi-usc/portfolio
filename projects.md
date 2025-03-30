@@ -29,18 +29,20 @@ Explore some of the impactful academic, professional, and research projects I've
 
     <p><strong>🖼️ Screenshots:</strong></p>
     
-    <img src="{{ '/assets/img/mcp-claude-demo.png' | relative_url }}" 
-         alt="Claude Desktop Weather Tool Example" 
-         style="width: 100%; max-width: 700px; margin: 1rem 0; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 1rem;">
+  <img src="{{ '/assets/img/mcp-claude-demo.png' | relative_url }}" 
+       alt="Claude MCP Tool Demo"
+       style="max-width: 100%; width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
 
-    <img src="{{ '/assets/img/mcp-cursor-demo.png' | relative_url }}" 
-         alt="Cursor Weather Tool Result" 
-         style="width: 100%; max-width: 700px; margin: 1rem 0; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <img src="{{ '/assets/img/mcp-cursor-demo.png' | relative_url }}" 
+       alt="Cursor MCP Tool Demo"
+       style="max-width: 100%; width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+</div>
   </details>
 </div>
 
 <div class="project-card">
-  <details open>
+  <details>
     <summary><strong>📊 Hybrid Recommender System for Yelp Reviews</strong></summary>
 
     <img src="{{ '/assets/img/solution_flow_diagram.png' | relative_url }}" 
