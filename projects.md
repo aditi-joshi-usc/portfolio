@@ -9,6 +9,37 @@ permalink: /projects/
 Explore some of the impactful academic, professional, and research projects I've worked on:
 
 <div class="project-card">
+  <details>
+    <summary><strong>🌐 MCP Weather Server – Claude & Cursor Integration</strong></summary>
+
+    <p>
+      Developed my first <strong>Model Context Protocol (MCP)</strong> server using <strong>TypeScript</strong>, <strong>Node.js</strong>, and <strong>Zod</strong>. This project integrates with <strong>Claude Desktop</strong> and <strong>Cursor</strong> to provide real-time weather data through conversational tool invocation.
+    </p>
+
+    <ul>
+      <li>🌦️ <strong>`get-alerts`</strong>: Returns current weather alerts by US state code using the National Weather Service API.</li>
+      <li>📍 <strong>`get-forecast`</strong>: Fetches point-based forecast for latitude and longitude coordinates.</li>
+      <li>🧪 Integrated with Claude & Cursor to run weather tools in natural language environments.</li>
+      <li>🔒 Validated all inputs using <strong>Zod schemas</strong> and implemented full type safety with TypeScript.</li>
+    </ul>
+
+    <p><strong>🧰 Tech Stack:</strong> TypeScript, Node.js, Zod, @modelcontextprotocol/sdk, Claude Desktop, Cursor, NWS API</p>
+    <p><strong>🏷️ Keywords:</strong> MCP, Tool Integration, Claude AI, Cursor IDE, Weather API, TypeScript, Zod</p>
+    <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/mcp-weather-server" target="_blank">View on GitHub</a></p>
+
+    <p><strong>🖼️ Screenshots:</strong></p>
+    
+    <img src="{{ '/assets/img/mcp-claude-demo.png' | relative_url }}" 
+         alt="Claude Desktop Weather Tool Example" 
+         style="width: 100%; max-width: 700px; margin: 1rem 0; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+
+    <img src="{{ '/assets/img/mcp-cursor-demo.png' | relative_url }}" 
+         alt="Cursor Weather Tool Result" 
+         style="width: 100%; max-width: 700px; margin: 1rem 0; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  </details>
+</div>
+
+<div class="project-card">
   <details open>
     <summary><strong>📊 Hybrid Recommender System for Yelp Reviews</strong></summary>
 
