@@ -29,14 +29,20 @@ Explore some of the impactful academic, professional, and research projects I've
 
     <p><strong>🖼️ Screenshots:</strong></p>
     
-   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 1rem;">
-  <img src="{{ '/assets/img/mcp-claude-demo.png' | relative_url }}" 
-       alt="Claude MCP Tool Demo"
-       style="max-width: 100%; width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+   <p><strong>🖼️ Screenshots:</strong></p>
 
-  <img src="{{ '/assets/img/mcp-cursor-demo.png' | relative_url }}" 
-       alt="Cursor MCP Tool Demo"
-       style="max-width: 100%; width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+<div style="text-align: center; margin-bottom: 1.5rem;">
+  <img src="{{ '/assets/img/mcp-claude-demo.png' | relative_url }}"
+       alt="Claude running MCP tool"
+       style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <p style="margin-top: 0.5rem; font-size: 0.95rem; color: #555;">Claude Desktop fetching forecast and alerts via MCP</p>
+</div>
+
+<div style="text-align: center;">
+  <img src="{{ '/assets/img/mcp-cursor-demo.png' | relative_url }}"
+       alt="Cursor using MCP server"
+       style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <p style="margin-top: 0.5rem; font-size: 0.95rem; color: #555;">Cursor IDE showing tool invocation and weather results</p>
 </div>
   </details>
 </div>
