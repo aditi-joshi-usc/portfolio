@@ -1,244 +1,99 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Navigation Bar */
 .nav-bar {
-  background-color: #6CA0DC;
-  padding: 0.75rem 1.5rem;
-  text-align: center;
-  border-radius: 8px;
-  margin: 1rem auto 2rem auto;
-  max-width: 800px;
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
+  gap: 1.5rem;
 }
 
 .nav-links li a {
-  color: white;
+  color: #333;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1rem;
   transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-  color: #FEEBCB;
+  color: #6CA0DC;
 }
 
-/* Optional: Make text stand out more on the Cayman background */
-.page-header {
-  background-color: #4B89DC;
-  color: white;
-  padding-bottom: 1rem;
-}
-
-.main-content {
-  max-width: 900px;
-  margin: auto;
-  padding: 1rem;
-}
-
-/* Responsive Navbar */
-@media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-}
-
+/* Hero Section */
 .hero-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin: 2rem auto;
-  padding: 1rem;
-  max-width: 900px;
-  background-color: #f9fbff;
+  padding: 2rem;
+  background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .hero-img {
-  width: auto;
-  height: 180px;
-  border-radius: 12px;
-  object-fit: contain;
-  border: 3px solid #6CA0DC;
-  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #6CA0DC;
 }
 
 .hero-text {
-  max-width: 500px;
-  text-align: left;
+  flex: 1;
 }
 
 .hero-text h1 {
-  margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #1F4B99;
-}
-
-.hero-text h2 {
-  margin-top: 0.25rem;
-  font-size: 1.25rem;
-  color: #6CA0DC;
 }
 
 .hero-text p {
   margin-top: 1rem;
-  line-height: 1.6;
   font-size: 1rem;
-  color: #333;
+  color: #555;
 }
 
-.hero-text a {
-  color: #4B89DC;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.hero-text a:hover {
-  text-decoration: underline;
-}
-.timeline {
-  border-left: 3px solid #6CA0DC;
-  padding-left: 2rem;
-  margin: 2rem 0;
-  position: relative;
-}
-
-.timeline::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -1.1rem;
-  bottom: 0;
-  width: 3px;
-  background: #6CA0DC;
-}
-
-.timeline-item {
-  margin-bottom: 2rem;
-  position: relative;
-}
-
-.timeline-date {
-  display: inline-block;
-  font-size: 0.9rem;
-  color: #6CA0DC;
-  font-weight: bold;
-  margin-bottom: 0.25rem;
-}
-
-.timeline-item h3 {
-  margin: 0.3rem 0 0.5rem 0;
-  color: #1F4B99;
-  font-size: 1.2rem;
-}
-
-.timeline-item ul {
-  margin-top: 0.3rem;
-  padding-left: 1.2rem;
-  line-height: 1.6;
-  font-size: 0.95rem;
-}
-
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  top: 0.5rem;
-  left: -1.45rem;
-  width: 10px;
-  height: 10px;
-  background-color: #6CA0DC;
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px #fff;
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.project-card {
-  background-color: #f9fbff;
-  border-left: 5px solid #6CA0DC;
-  padding: 1rem 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-}
-
-.project-card h3 {
-  margin-top: 0;
-  color: #1F4B99;
-}
-.project-card ul {
-  margin: 0.5rem 0 1rem 1.2rem;
-  padding-left: 1rem;
-  list-style: disc;
-  line-height: 1.6;
-}
-.project-card p {
-  margin-bottom: 0.4rem;
-  font-size: 0.95rem;
-}
-.project-card {
-  margin-bottom: 1.5rem;
-  padding: 1rem 1.2rem;
-  background-color: #f9fbff;
-  border-left: 4px solid #6CA0DC;
+/* Sections */
+.section {
+  background-color: #ffffff;
+  padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
 }
 
-.project-card summary {
-  cursor: pointer;
-  font-size: 1.1rem;
+.section h2 {
+  font-size: 2rem;
   color: #1F4B99;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-.project-card ul {
-  padding-left: 1.2rem;
-  margin-top: 0.5rem;
-}
-
-.project-card a {
-  color: #4B89DC;
-  text-decoration: none;
-}
-.resume-download-btn {
-  display: inline-block;
-  background-color: #6CA0DC;
-  color: white;
-  padding: 0.6rem 1rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.resume-download-btn:hover {
-  background-color: #4B89DC;
-}
-.project-card a:hover {
-  text-decoration: underline;
-}
+/* Skills */
 .skill-section {
   margin-bottom: 2rem;
-}
-
-.skill-section h3 {
-  font-size: 1.25rem;
-  color: #1F4B99;
-  margin-bottom: 0.5rem;
 }
 
 .skill-badges {
@@ -257,27 +112,82 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.2s ease;
 }
-.contact-block {
-  background-color: #f9fbff;
+
+.badge:hover {
+  background-color: #4B89DC;
+}
+
+/* Projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border-left: 5px solid #6CA0DC;
   padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #1F4B99;
+}
+
+.project-card p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.project-card a {
+  color: #4B89DC;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* Contact */
+.contact-block {
+  background-color: #ffffff;
+  padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   max-width: 600px;
   margin: 2rem auto;
-  text-align: left;
 }
 
 .contact-list {
   list-style: none;
   padding-left: 0;
-  margin-top: 1rem;
 }
 
 .contact-list li {
   margin: 0.6rem 0;
   font-size: 1.05rem;
+  color: #555;
 }
 
-.badge:hover {
-  background-color: #4B89DC;
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 120px;
+    height: 120px;
+  }
 }
