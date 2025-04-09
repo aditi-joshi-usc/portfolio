@@ -37,6 +37,9 @@ permalink: /skills/
     <span class="badge">MySQL</span>
     <span class="badge">PostgreSQL</span>
     <span class="badge">MongoDB</span>
+    <span class="badge">pgcli</span>
+  <span class="badge">SQLAlchemy</span>
+
   </div>
 </div>
 
@@ -54,6 +57,9 @@ permalink: /skills/
     <span class="badge">Django</span>
     <span class="badge">Flask</span>
     <span class="badge">REST APIs</span>
+    <span class="badge">Zod</span>
+  <span class="badge">TypeScript</span>
+
   </div>
 </div>
 
@@ -66,6 +72,9 @@ permalink: /skills/
     <span class="badge">Jenkins</span>
     <span class="badge">Git</span>
     <span class="badge">Bitbucket</span>
+    <span class="badge">pgAdmin</span>
+    <span class="badge">Model Context Protocol (MCP)</span> 
+
   </div>
 </div>
 
