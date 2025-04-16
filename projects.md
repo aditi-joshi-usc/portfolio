@@ -75,9 +75,11 @@ permalink: /projects/
       <p><strong>🧰 Tech Stack:</strong> React, Vite, Zustand, Chakra UI, Express.js, MongoDB, Render</p>
       <p><strong>🏷️ Keywords:</strong> MERN Stack, CRUD App, Zustand, Chakra UI, Full-Stack Project</p>
       <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/full-stack-products-store-app" target="_blank">View on GitHub</a></p>
+      <p><strong>🌐 Live Demo:</strong> <a href="https://full-stack-products-store-app-2.onrender.com/" target="_blank">https://full-stack-products-store-app-2.onrender.com</a></p>
     </details>
   </div>
 </div>
+
 
   <div class="tab-content hidden" id="research">
     <div class="project-card">
