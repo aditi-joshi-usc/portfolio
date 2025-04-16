@@ -10,6 +10,7 @@ permalink: /projects/
 <div class="tab-container">
   <div class="tabs">
     <button class="tab active" onclick="showTab('ml')">🧠 ML & AI</button>
+    <button class="tab" onclick="showTab('fullstack')">🧩 Full Stack</button>
     <button class="tab" onclick="showTab('research')">🔬 Research</button>
     <button class="tab" onclick="showTab('infra')">🧱 Infrastructure</button>
     <button class="tab" onclick="showTab('systems')">🗃️ Systems</button>
@@ -57,6 +58,26 @@ permalink: /projects/
   </details>
 </div>
   </div>
+<div class="tab-content hidden" id="fullstack">
+  <div class="project-card">
+    <details>
+      <summary><strong>🛒 Full-Stack Products Store App</strong></summary>
+      <p>
+        A responsive, full-stack MERN application to manage product catalogs with full CRUD capabilities. Features an intuitive UI, modal-based editing, and seamless integration between frontend and backend APIs. Built for both development learning and production deployment using <strong>Render</strong>.
+      </p>
+      <ul>
+        <li>🧠 Global state handled using <strong>Zustand</strong> with API abstraction.</li>
+        <li>🧱 RESTful API built with <strong>Express.js</strong> and connected to <strong>MongoDB Atlas</strong>.</li>
+        <li>🎨 Frontend styled using <strong>Chakra UI</strong> and supports <strong>light/dark mode</strong>.</li>
+        <li>⚙️ Features modal editing, toast notifications, and route-based navigation.</li>
+        <li>🚀 Full app hosted on Render with a single service for backend and static frontend files.</li>
+      </ul>
+      <p><strong>🧰 Tech Stack:</strong> React, Vite, Zustand, Chakra UI, Express.js, MongoDB, Render</p>
+      <p><strong>🏷️ Keywords:</strong> MERN Stack, CRUD App, Zustand, Chakra UI, Full-Stack Project</p>
+      <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/full-stack-products-store-app" target="_blank">View on GitHub</a></p>
+    </details>
+  </div>
+</div>
 
   <div class="tab-content hidden" id="research">
     <div class="project-card">
