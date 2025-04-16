@@ -39,6 +39,10 @@ permalink: /skills/
     <span class="badge">MongoDB</span>
     <span class="badge">pgcli</span>
   <span class="badge">SQLAlchemy</span>
+  <span class="badge">Mongoose</span>
+<span class="badge">Express.js</span>
+<span class="badge">Zustand</span>
+
 
   </div>
 </div>
@@ -59,6 +63,8 @@ permalink: /skills/
     <span class="badge">REST APIs</span>
     <span class="badge">Zod</span>
   <span class="badge">TypeScript</span>
+  <span class="badge">Vite</span>
+<span class="badge">Chakra UI</span>
 
   </div>
 </div>
@@ -73,6 +79,7 @@ permalink: /skills/
     <span class="badge">Git</span>
     <span class="badge">Bitbucket</span>
     <span class="badge">pgAdmin</span>
+    <span class="badge">Render</span>
     <span class="badge">Model Context Protocol (MCP)</span> 
 
   </div>
