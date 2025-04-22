@@ -60,6 +60,29 @@ permalink: /projects/
   </div>
 <div class="tab-content hidden" id="fullstack">
   <div class="project-card">
+  <details>
+    <summary><strong>💬 Real-Time Chat Application</strong></summary>
+    <p>
+      A fully functional real-time chat app built using <strong>React</strong>, <strong>Node.js</strong>, <strong>MongoDB</strong>, and <strong>Socket.IO</strong>. Features include secure JWT authentication with bcrypt-encrypted passwords, Cloudinary-based image messaging, online user tracking, and responsive UI with light/dark mode.
+    </p>
+    <ul>
+      <li>🔌 Real-time communication using Socket.IO and WebSocket integration</li>
+      <li>🔐 Secure login system with JWT and bcrypt encryption</li>
+      <li>🖼️ Cloudinary integration for profile pictures and image messages</li>
+      <li>🌙 Light/dark mode toggle using TailwindCSS and DaisyUI</li>
+      <li>🧠 Global state management with Zustand</li>
+      <li>🚀 Monorepo deployed on Render with separate frontend/backend services</li>
+    </ul>
+    <p><strong>🧰 Tech Stack:</strong> React, Vite, Zustand, Express.js, MongoDB, Socket.IO, Cloudinary, TailwindCSS, DaisyUI</p>
+    <p><strong>🏷️ Keywords:</strong> Full-Stack App, Real-Time Chat, WebSockets, JWT, Cloudinary</p>
+    <p><strong>🔗 GitHub:</strong> <a href="https://github.com/aditi-joshi-usc/full-stack-chat-app" target="_blank">View on GitHub</a></p>
+    <p><strong>🌐 Live Demo:</strong> <a href="https://full-stack-chat-app-3-ifx2.onrender.com" target="_blank">https://full-stack-chat-app-3-ifx2.onrender.com</a> (Render free tier – may take a few seconds to start)</p>
+    <p><strong>🎥 Demo Video:</strong></p>
+    <iframe src="https://drive.google.com/file/d/1_-eBmNGJb_lP9SXZ1zsww3eOGzHW4fCr/preview" width="100%" height="400" allow="autoplay"></iframe>
+  </details>
+</div>
+
+  <div class="project-card">
     <details>
       <summary><strong>🛒 Full-Stack Products Store App</strong></summary>
       <p>
