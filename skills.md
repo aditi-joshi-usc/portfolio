@@ -42,6 +42,10 @@ permalink: /skills/
   <span class="badge">Mongoose</span>
 <span class="badge">Express.js</span>
 <span class="badge">Zustand</span>
+<span class="badge">Socket.IO</span>
+<span class="badge">JWT Authentication</span>
+<span class="badge">Cloudinary</span>
+
 
 
   </div>
@@ -65,6 +69,9 @@ permalink: /skills/
   <span class="badge">TypeScript</span>
   <span class="badge">Vite</span>
 <span class="badge">Chakra UI</span>
+<span class="badge">TailwindCSS</span>
+<span class="badge">DaisyUI</span>
+
 
   </div>
 </div>
